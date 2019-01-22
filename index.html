@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS/HTML Workshop with Privateaser</title>
+    <link rel="stylesheet" type="text/css" href="ressources/design.css">
+    <h1>PRIVATEASER</h1>
+    <catchphrase>Réservez vos bars favoris pour vos soirées!!</catchphrase>
+    <catchphrase style="margin-bottom: 2%">Entrez vos informations : </catchphrase>
+  </head>
+
+  <div style="width: 100%;">
+    <div style="float:left; width: 50%">
+      <div id="bar" style="margin-left: 20%">
+        <label>Nom du bar : </label>
+        <input class="js-name" type="text" placeholder="Bar name" style="margin-left: 103px;" />
+      </div>
+
+      <div id="price_hour" style="margin-left: 20%">
+        <label>Prix par heure : </label>
+        <input class="js-price-by-hour" type="number" placeholder="Price by hour" style="margin-left: 89px;"/>
+      </div>
+
+      <div id="price_person" style="margin-left: 20%">
+        <label>Prix par personne : </label>
+        <input class="js-price-by-person" type="number" placeholder="Price by person" style="margin-left: 67px;"/>
+      </div>
+
+      <div id="booker" style="margin-left: 20%">
+        <label>Nom de la reservation : </label>
+        <input class="js-name" type="text" placeholder="Booker name" style="margin-left: 38px;"/>
+      </div>
+
+      <div id="time_number" style="margin-left: 20%">
+        <label>Nombre d'heures souhaitées : </label>
+        <input class="js-time" type="number" placeholder="Time in h"/>
+      </div>
+
+      <div id="persons_number" style="margin-left: 20%">
+        <label>Nombre de personnes : </label>
+        <input class="js-persons" type="number" placeholder="Persons" style="margin-left: 40px;"/>
+      </div>
+
+      <div id="option" style="margin-left: 20%">
+        <label>Option deductible ? </label>
+        <input class="js-option" type="checkbox" placeholder="Deductible option" style="margin-left: 130px;"/>
+      </div>
+
+      <button id="compute" style="margin-left: 300px;">Compute</button>
+      <div id="actors"></div>
+      <script src="privateaser.js"></script>
+      <script src="index.js"></script>
+    </div>
+
+    <div style="float:right;" style="margin-right: 10%">
+      <img src="https://img.saveur-biere.com/img/p/14426-26503-v4_product_img.jpg">
+    </div>
+  </div>
+</html>
